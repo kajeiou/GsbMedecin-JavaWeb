@@ -14,7 +14,7 @@
     </head>
     <body>
     <center>
-        <div class="logo"><img src="logo.jpg"></div>
+        <div class="logo"><a href="Controleur"><img src="logo.jpg"></a></div>
         <h1>Liste des médecins de ce nom</h1>
         <table>
             <tr>

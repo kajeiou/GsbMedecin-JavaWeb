@@ -15,7 +15,7 @@
     </head>
     <body>
     <center>
-         <div class="logo"><img src="logo.jpg"></div>
+         <div class="logo"><a href="Controleur"><img src="logo.jpg"></a></div>
          
          <h1>Panel des départements</h1>
 

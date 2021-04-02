@@ -15,7 +15,7 @@
     
     <body>
     <center>
-        <div class="logo"><img src="logo.jpg"></div>
+        <div class="logo"><a href="Controleur"><img src="logo.jpg"></a></div>
         <h1>Bienvenue sur l'interface de l'application</h1>
         <nav>
             <a href="Controleur?action=listedepartements">
