@@ -13,6 +13,8 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
+    <center>
+         <div class="logo"><img src="logo.jpg"></div>
         <h1>Liste des médecins du departement</h1>
         <table>
             <tr>
@@ -35,6 +37,8 @@
         </c:forEach>
            
     </table>
+    </center>
+        
         
     </body>
 </html>

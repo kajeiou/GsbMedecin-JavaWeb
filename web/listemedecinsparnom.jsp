@@ -13,6 +13,8 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
+    <center>
+        <div class="logo"><img src="logo.jpg"></div>
         <h1>Liste des médecins de ce nom</h1>
         <table>
             <tr>
@@ -22,19 +24,21 @@
                 <td>Telephone</td>
                 <td>Specialite</td>
             </tr>
-            
-        <c:forEach var="medecin" items="${medecins}">
-             <tr>   
-            <td>${medecin.nom}</td>
-           <td>${medecin.prenom}</td>
-           <td>${medecin.adresse}</td>
-           <td>${medecin.tel}</td>
-           <td>${medecin.spe}</td>
-            </tr>
-            
-        </c:forEach>
-           
-    </table>
-        
-    </body>
+
+            <c:forEach var="medecin" items="${medecins}">
+                <tr>   
+                    <td>${medecin.nom}</td>
+                    <td>${medecin.prenom}</td>
+                    <td>${medecin.adresse}</td>
+                    <td>${medecin.tel}</td>
+                    <td>${medecin.spe}</td>
+                </tr>
+
+            </c:forEach>
+
+        </table>
+    </center>
+
+
+</body>
 </html>

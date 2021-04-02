@@ -13,15 +13,19 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
+    <center>
+        <div class="logo"><img src="logo.jpg"></div>
         <h1>Panel des départements</h1>
 
        
         <form method="post" action="Controleur?action=listenom">
         
-            <label>Entrez un nom</label><br>
-            <input type="text" name="choixNom"><br>
+            <label>Entrez un nom</label><br><br>
+            <input type="text" name="choixNom"><br><br>
             <input type="submit" name="envoyer">
         </form>
+    </center>
+        
 
     </body>
 </html>

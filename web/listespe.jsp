@@ -13,15 +13,19 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
+    <center>
+         <div class="logo"><img src="logo.jpg"></div>
         <h1>Panel des départements</h1>
 
        
         <form method="post" action="Controleur?action=listespecialite">
         
-            <label>Entrez une specialite</label><br>
-            <input type="text" name="choixSpecialite"><br>
+            <label>Entrez une specialite à rechercher</label><br><br>
+            <input type="text" name="choixSpecialite"><br><br>
             <input type="submit" name="envoyer">
         </form>
+    </center>
+        
 
     </body>
 </html>

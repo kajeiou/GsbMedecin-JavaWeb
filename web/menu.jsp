@@ -14,11 +14,17 @@
     </head>
     
     <body>
+    <center>
+        <div class="logo"><img src="logo.jpg"></div>
         <h1>Bienvenue sur l'interface de l'application</h1>
-        <a href="Controleur?action=listedepartements">
-            <button name="menu" value="listedepartement">Liste des medecins par departement</button>
-        </a>
-        <a href="Controleur?action=listespecialite"><button name="menu" value="listespecialite">Recherche par specialite</button></a>
-        <a href="Controleur?action=listenom"><button name="menu" value="listenom">Recherche par nom</button></a>
-    </body>
+        <nav>
+            <a href="Controleur?action=listedepartements">
+                <button name="menu" value="listedepartement">Liste des medecins par departement</button>
+            </a>
+            <a href="Controleur?action=listespecialite"><button name="menu" value="listespecialite">Recherche par specialite</button></a>
+            <a href="Controleur?action=listenom"><button name="menu" value="listenom">Recherche par nom</button></a>
+
+        </nav>
+    </center>
+        </body>
 </html>

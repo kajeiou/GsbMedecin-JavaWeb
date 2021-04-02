@@ -14,7 +14,10 @@
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        <h1>Panel des départements</h1>
+    <center>
+         <div class="logo"><img src="logo.jpg"></div>
+         
+         <h1>Panel des départements</h1>
 
        
         <form method="post" action="Controleur?action=listedepartements">
@@ -33,6 +36,8 @@
         </select>
             <input type="submit" name="envoyer">
         </form>
+    </center>
+        
 
     </body>
 </html>
